@@ -17,13 +17,27 @@ struct theResult
    public string ju;
 }
 
+struct Score
+{
+   public int win;
+   public int draw;
+   public int lose;
+
+}
+
 namespace RockPaperScissors
 {
     class MainEngine
     {
-        
+        static MainEngine() {
+            myScore.win = 0;
+            myScore.lose = 0;
+            myScore.draw = 0;
+
+        }
+        static Score myScore;
         theResult result;
-  
+        Score current;
         public theResult OneTwoThree(int mychoice)
         {
             RandomPassword.Random AI = new RandomPassword.Random();
@@ -90,17 +104,21 @@ namespace RockPaperScissors
 
             if (result.win==1)
             {
+                
                 result.ju = "YOU WIN";
+                myScore.win++;
             }
 
             if (result.win == -1)
             {
                result.ju = "YOU LOSE";
+               myScore.lose++;
             }
 
             if (result.win == 0)
             {
                 result.ju = "DRAW";
+                myScore.draw++;
             }
 
 
@@ -108,8 +126,15 @@ namespace RockPaperScissors
         }
 
 
-
+        public Score getScore() 
+        {
+            current.win=myScore.win;
+            current.lose=myScore.lose;
+            current.draw=myScore.draw;
+            return current;
+        }
+    }
 
 
     }
-}
+

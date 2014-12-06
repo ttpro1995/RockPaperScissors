@@ -35,6 +35,8 @@ namespace RockPaperScissors
           Label_Player_Choice.Text = result.PlayerChoice;
           Label_AI_Choice.Text = result.AIChoice;
           Label_Result.Text = result.ju;
+
+          updateScore(engine.getScore());
         }
 
         private void Scissors_Click(object sender, EventArgs e)
@@ -44,6 +46,8 @@ namespace RockPaperScissors
             Label_Player_Choice.Text = result.PlayerChoice;
             Label_AI_Choice.Text = result.AIChoice;
             Label_Result.Text = result.ju;
+
+            updateScore(engine.getScore());
         }
 
         private void Paper_Click(object sender, EventArgs e)
@@ -53,9 +57,34 @@ namespace RockPaperScissors
             Label_Player_Choice.Text = result.PlayerChoice;
             Label_AI_Choice.Text = result.AIChoice;
             Label_Result.Text = result.ju;
+
+
+            updateScore(engine.getScore());
+
+        }
+
+        private void updateScore(Score currentScore)
+        {
+            string sc_win = "Win "+ currentScore.win.ToString();
+            string sc_draw = "Lose " + currentScore.lose.ToString(); ;
+            string sc_lose = "Draw " + currentScore.draw.ToString(); ;
+
+            Label_Score_Win.Text = sc_win;
+            Label_Score_Draw.Text = sc_draw;
+            Label_Score_Lose.Text = sc_lose;
         }
 
         private void Label_AI_Choice_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Label_Score_Win_Click(object sender, EventArgs e)
         {
 
         }
