@@ -32,20 +32,32 @@ namespace RockPaperScissors
             MainEngine engine = new MainEngine();
           theResult result=  engine.OneTwoThree(1);
 
-            
-
+          Label_Player_Choice.Text = result.PlayerChoice;
+          Label_AI_Choice.Text = result.AIChoice;
+          Label_Result.Text = result.ju;
         }
 
         private void Scissors_Click(object sender, EventArgs e)
         {
             MainEngine engine = new MainEngine();
             theResult result = engine.OneTwoThree(3);
+            Label_Player_Choice.Text = result.PlayerChoice;
+            Label_AI_Choice.Text = result.AIChoice;
+            Label_Result.Text = result.ju;
         }
 
         private void Paper_Click(object sender, EventArgs e)
         {
             MainEngine engine = new MainEngine();
             theResult result = engine.OneTwoThree(2);
+            Label_Player_Choice.Text = result.PlayerChoice;
+            Label_AI_Choice.Text = result.AIChoice;
+            Label_Result.Text = result.ju;
+        }
+
+        private void Label_AI_Choice_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

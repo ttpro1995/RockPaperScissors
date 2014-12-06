@@ -14,7 +14,7 @@ struct theResult
    public int win;//1 win -1 lose 0 draw
    public string PlayerChoice;
    public string AIChoice;
-
+   public string ju;
 }
 
 namespace RockPaperScissors
@@ -34,6 +34,7 @@ namespace RockPaperScissors
             //rock
             if (result.me==1)
             {
+                result.PlayerChoice = "Rock";
                 if (result.they == 1)//rock
                     result.win = 0;
 
@@ -48,6 +49,7 @@ namespace RockPaperScissors
             //paper
             if (result.me == 2)
             {
+                result.PlayerChoice = "Paper";
                 if (result.they == 1)//rock
                     result.win = 1;
 
@@ -62,6 +64,7 @@ namespace RockPaperScissors
             //scissors
             if (result.me == 3)
             {
+                result.PlayerChoice = "Scissors";
                 if (result.they == 1)//rock
                     result.win = -1;
 
@@ -70,6 +73,34 @@ namespace RockPaperScissors
 
                 if (result.they == 3)//scissors
                     result.win = 0;
+            }
+
+            if (result.they==1)
+            {
+                result.AIChoice = "Rock";
+            }
+            if (result.they == 2)
+            {
+                result.AIChoice = "Paper";
+            }
+            if (result.they == 3)
+            {
+                result.AIChoice = "Scissors";
+            }
+
+            if (result.win==1)
+            {
+                result.ju = "YOU WIN";
+            }
+
+            if (result.win == -1)
+            {
+               result.ju = "YOU LOSE";
+            }
+
+            if (result.win == 0)
+            {
+                result.ju = "DRAW";
             }
 
 
