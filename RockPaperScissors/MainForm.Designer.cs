@@ -37,6 +37,7 @@
             this.Label_Score_Win = new System.Windows.Forms.Label();
             this.Label_Score_Draw = new System.Windows.Forms.Label();
             this.Label_Score_Lose = new System.Windows.Forms.Label();
+            this.CopyRight = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Rock
@@ -130,11 +131,22 @@
             this.Label_Score_Lose.TabIndex = 9;
             this.Label_Score_Lose.Text = "Lose";
             // 
+            // CopyRight
+            // 
+            this.CopyRight.AutoSize = true;
+            this.CopyRight.Location = new System.Drawing.Point(13, 13);
+            this.CopyRight.Name = "CopyRight";
+            this.CopyRight.Size = new System.Drawing.Size(62, 13);
+            this.CopyRight.TabIndex = 10;
+            this.CopyRight.Text = "HahaTTpro";
+            this.CopyRight.Click += new System.EventHandler(this.CopyRight_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(435, 261);
+            this.Controls.Add(this.CopyRight);
             this.Controls.Add(this.Label_Score_Lose);
             this.Controls.Add(this.Label_Score_Draw);
             this.Controls.Add(this.Label_Score_Win);
@@ -162,6 +174,7 @@
         private System.Windows.Forms.Label Label_Score_Win;
         private System.Windows.Forms.Label Label_Score_Draw;
         private System.Windows.Forms.Label Label_Score_Lose;
+        private System.Windows.Forms.Label CopyRight;
     }
 }
 

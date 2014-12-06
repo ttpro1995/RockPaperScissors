@@ -88,5 +88,10 @@ namespace RockPaperScissors
         {
 
         }
+
+        private void CopyRight_Click(object sender, EventArgs e)
+        {
+            CopyRight.Text = "HahaTTpro 6-Nov-2014";
+        }
     }
 }
