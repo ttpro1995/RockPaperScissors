@@ -157,7 +157,7 @@
             this.Controls.Add(this.Scissors);
             this.Controls.Add(this.Rock);
             this.Name = "MainForm";
-            this.Text = "Rock-paper-scissors";
+            this.Text = "Rock-paper-scissors v1.00";
             this.ResumeLayout(false);
             this.PerformLayout();
 
