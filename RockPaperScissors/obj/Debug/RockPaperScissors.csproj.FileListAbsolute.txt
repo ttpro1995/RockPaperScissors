@@ -10,3 +10,15 @@ C:\Users\user\Documents\Visual Studio 2013\Projects\C thang learning\RockPaperSc
 C:\Users\user\Documents\Visual Studio 2013\Projects\C thang learning\RockPaperScissors\RockPaperScissors\obj\Debug\RockPaperScissors.application
 C:\Users\user\Documents\Visual Studio 2013\Projects\C thang learning\RockPaperScissors\RockPaperScissors\obj\Debug\RockPaperScissors.exe
 C:\Users\user\Documents\Visual Studio 2013\Projects\C thang learning\RockPaperScissors\RockPaperScissors\obj\Debug\RockPaperScissors.pdb
+C:\Users\user\Documents\GitHub\RockPaperScissors\RockPaperScissors\bin\Debug\RockPaperScissors.exe.config
+C:\Users\user\Documents\GitHub\RockPaperScissors\RockPaperScissors\obj\Debug\RockPaperScissors.exe
+C:\Users\user\Documents\GitHub\RockPaperScissors\RockPaperScissors\obj\Debug\RockPaperScissors.pdb
+C:\Users\user\Documents\GitHub\RockPaperScissors\RockPaperScissors\bin\Debug\RockPaperScissors.exe.manifest
+C:\Users\user\Documents\GitHub\RockPaperScissors\RockPaperScissors\bin\Debug\RockPaperScissors.application
+C:\Users\user\Documents\GitHub\RockPaperScissors\RockPaperScissors\bin\Debug\RockPaperScissors.exe
+C:\Users\user\Documents\GitHub\RockPaperScissors\RockPaperScissors\bin\Debug\RockPaperScissors.pdb
+C:\Users\user\Documents\GitHub\RockPaperScissors\RockPaperScissors\obj\Debug\RockPaperScissors.MainForm.resources
+C:\Users\user\Documents\GitHub\RockPaperScissors\RockPaperScissors\obj\Debug\RockPaperScissors.Properties.Resources.resources
+C:\Users\user\Documents\GitHub\RockPaperScissors\RockPaperScissors\obj\Debug\RockPaperScissors.csproj.GenerateResource.Cache
+C:\Users\user\Documents\GitHub\RockPaperScissors\RockPaperScissors\obj\Debug\RockPaperScissors.exe.manifest
+C:\Users\user\Documents\GitHub\RockPaperScissors\RockPaperScissors\obj\Debug\RockPaperScissors.application
