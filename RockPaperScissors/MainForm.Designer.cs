@@ -42,7 +42,7 @@
             // 
             // Rock
             // 
-            this.Rock.Location = new System.Drawing.Point(12, 227);
+            this.Rock.Location = new System.Drawing.Point(16, 293);
             this.Rock.Name = "Rock";
             this.Rock.Size = new System.Drawing.Size(75, 23);
             this.Rock.TabIndex = 0;
@@ -52,7 +52,7 @@
             // 
             // Scissors
             // 
-            this.Scissors.Location = new System.Drawing.Point(323, 227);
+            this.Scissors.Location = new System.Drawing.Point(502, 293);
             this.Scissors.Name = "Scissors";
             this.Scissors.Size = new System.Drawing.Size(75, 23);
             this.Scissors.TabIndex = 2;
@@ -64,7 +64,7 @@
             // 
             this.Label_Player_Choice.AutoSize = true;
             this.Label_Player_Choice.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.Label_Player_Choice.Location = new System.Drawing.Point(156, 178);
+            this.Label_Player_Choice.Location = new System.Drawing.Point(342, 251);
             this.Label_Player_Choice.Name = "Label_Player_Choice";
             this.Label_Player_Choice.Size = new System.Drawing.Size(92, 20);
             this.Label_Player_Choice.TabIndex = 3;
@@ -73,7 +73,7 @@
             // 
             // Paper
             // 
-            this.Paper.Location = new System.Drawing.Point(159, 227);
+            this.Paper.Location = new System.Drawing.Point(260, 293);
             this.Paper.Name = "Paper";
             this.Paper.Size = new System.Drawing.Size(75, 23);
             this.Paper.TabIndex = 4;
@@ -85,7 +85,7 @@
             // 
             this.Label_AI_Choice.AutoSize = true;
             this.Label_AI_Choice.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.Label_AI_Choice.Location = new System.Drawing.Point(160, 22);
+            this.Label_AI_Choice.Location = new System.Drawing.Point(342, 13);
             this.Label_AI_Choice.Name = "Label_AI_Choice";
             this.Label_AI_Choice.Size = new System.Drawing.Size(93, 20);
             this.Label_AI_Choice.TabIndex = 5;
@@ -96,7 +96,7 @@
             // 
             this.Label_Result.AutoSize = true;
             this.Label_Result.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.Label_Result.Location = new System.Drawing.Point(159, 102);
+            this.Label_Result.Location = new System.Drawing.Point(256, 134);
             this.Label_Result.Name = "Label_Result";
             this.Label_Result.Size = new System.Drawing.Size(55, 20);
             this.Label_Result.TabIndex = 6;
@@ -105,7 +105,7 @@
             // Label_Score_Win
             // 
             this.Label_Score_Win.AutoSize = true;
-            this.Label_Score_Win.Location = new System.Drawing.Point(340, 53);
+            this.Label_Score_Win.Location = new System.Drawing.Point(499, 108);
             this.Label_Score_Win.Name = "Label_Score_Win";
             this.Label_Score_Win.Size = new System.Drawing.Size(26, 13);
             this.Label_Score_Win.TabIndex = 7;
@@ -115,7 +115,7 @@
             // Label_Score_Draw
             // 
             this.Label_Score_Draw.AutoSize = true;
-            this.Label_Score_Draw.Location = new System.Drawing.Point(340, 81);
+            this.Label_Score_Draw.Location = new System.Drawing.Point(499, 161);
             this.Label_Score_Draw.Name = "Label_Score_Draw";
             this.Label_Score_Draw.Size = new System.Drawing.Size(32, 13);
             this.Label_Score_Draw.TabIndex = 8;
@@ -125,7 +125,7 @@
             // Label_Score_Lose
             // 
             this.Label_Score_Lose.AutoSize = true;
-            this.Label_Score_Lose.Location = new System.Drawing.Point(343, 108);
+            this.Label_Score_Lose.Location = new System.Drawing.Point(499, 134);
             this.Label_Score_Lose.Name = "Label_Score_Lose";
             this.Label_Score_Lose.Size = new System.Drawing.Size(30, 13);
             this.Label_Score_Lose.TabIndex = 9;
@@ -145,7 +145,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(435, 261);
+            this.ClientSize = new System.Drawing.Size(589, 328);
             this.Controls.Add(this.CopyRight);
             this.Controls.Add(this.Label_Score_Lose);
             this.Controls.Add(this.Label_Score_Draw);
