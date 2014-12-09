@@ -34,8 +34,11 @@ namespace RockPaperScissors
 
           Label_Player_Choice.Text = result.PlayerChoice;
           Label_AI_Choice.Text = result.AIChoice;
-          Label_Result.Text = result.ju;
-
+            Label_Result.Text = result.ju;
+            Image player_choice_img = Image.FromFile(result.PlayerChoice + ".png");
+            Picture_Player.Image = player_choice_img;
+            Image AI_choice_img = Image.FromFile(result.AIChoice + ".png");
+            Picture_AI.Image = AI_choice_img;
           updateScore(engine.getScore());
         }
 
@@ -46,6 +49,10 @@ namespace RockPaperScissors
             Label_Player_Choice.Text = result.PlayerChoice;
             Label_AI_Choice.Text = result.AIChoice;
             Label_Result.Text = result.ju;
+            Image player_choice_img = Image.FromFile(result.PlayerChoice + ".png");
+            Picture_Player.Image = player_choice_img;
+            Image AI_choice_img = Image.FromFile(result.AIChoice + ".png");
+            Picture_AI.Image = AI_choice_img;
 
             updateScore(engine.getScore());
         }
@@ -57,8 +64,10 @@ namespace RockPaperScissors
             Label_Player_Choice.Text = result.PlayerChoice;
             Label_AI_Choice.Text = result.AIChoice;
             Label_Result.Text = result.ju;
-
-
+            Image player_choice_img = Image.FromFile(result.PlayerChoice + ".png");
+            Picture_Player.Image = player_choice_img;
+            Image AI_choice_img = Image.FromFile(result.AIChoice + ".png");
+            Picture_AI.Image = AI_choice_img;
             updateScore(engine.getScore());
 
         }

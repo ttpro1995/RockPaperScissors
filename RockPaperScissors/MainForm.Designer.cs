@@ -38,6 +38,10 @@
             this.Label_Score_Draw = new System.Windows.Forms.Label();
             this.Label_Score_Lose = new System.Windows.Forms.Label();
             this.CopyRight = new System.Windows.Forms.Label();
+            this.Picture_Player = new System.Windows.Forms.PictureBox();
+            this.Picture_AI = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.Picture_Player)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Picture_AI)).BeginInit();
             this.SuspendLayout();
             // 
             // Rock
@@ -141,11 +145,29 @@
             this.CopyRight.Text = "HahaTTpro";
             this.CopyRight.Click += new System.EventHandler(this.CopyRight_Click);
             // 
+            // Picture_Player
+            // 
+            this.Picture_Player.Location = new System.Drawing.Point(260, 221);
+            this.Picture_Player.Name = "Picture_Player";
+            this.Picture_Player.Size = new System.Drawing.Size(50, 50);
+            this.Picture_Player.TabIndex = 11;
+            this.Picture_Player.TabStop = false;
+            // 
+            // Picture_AI
+            // 
+            this.Picture_AI.Location = new System.Drawing.Point(260, 13);
+            this.Picture_AI.Name = "Picture_AI";
+            this.Picture_AI.Size = new System.Drawing.Size(50, 50);
+            this.Picture_AI.TabIndex = 12;
+            this.Picture_AI.TabStop = false;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(589, 328);
+            this.Controls.Add(this.Picture_AI);
+            this.Controls.Add(this.Picture_Player);
             this.Controls.Add(this.CopyRight);
             this.Controls.Add(this.Label_Score_Lose);
             this.Controls.Add(this.Label_Score_Draw);
@@ -158,6 +180,8 @@
             this.Controls.Add(this.Rock);
             this.Name = "MainForm";
             this.Text = "Rock-paper-scissors v1.00";
+            ((System.ComponentModel.ISupportInitialize)(this.Picture_Player)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Picture_AI)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -175,6 +199,8 @@
         private System.Windows.Forms.Label Label_Score_Draw;
         private System.Windows.Forms.Label Label_Score_Lose;
         private System.Windows.Forms.Label CopyRight;
+        private System.Windows.Forms.PictureBox Picture_Player;
+        private System.Windows.Forms.PictureBox Picture_AI;
     }
 }
 

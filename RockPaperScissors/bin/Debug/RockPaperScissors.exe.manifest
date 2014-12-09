@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="RockPaperScissors.exe" size="13712">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="RockPaperScissors.exe" size="14736">
       <assemblyIdentity name="RockPaperScissors" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>DKxieenmCZrX3wY6tDlnWwGzNJEcnZg9CnE/BZ72pvg=</dsig:DigestValue>
+        <dsig:DigestValue>PJdm/u34zebfuu1JrOwC/kdF6/TJmsEKqLHaX4s4c1c=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
